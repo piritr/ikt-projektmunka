@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szabályok</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #2b2b2b;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #1e1e1e;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .navbar-brand, .nav-link {
+            color: #f8c600 !important;
+            font-weight: bold;
+        }
+        .nav-link:hover {
+            color: #ff6600 !important;
+        }
+
+        .container {
+            background-color: #333;
+            padding: 8rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+            margin-top: 20px;
+        }
+
+        h1, h3,h4,h2 {
+            color: #f8c600;
+            border-bottom: 2px solid #ff6600;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #d0d0d0;
+        }
+
+        body {
+            background-image: url('https://example.com/asphalt-background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        .container::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #ff6600, #f8c600);
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Aszfaltbetyár</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Tervezők rövid jellemzése</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jatekrol.html">A Játékról</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="szabalyok.html">Szabályok</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="  g:\1-2_ugroiskola_vagott_web.jpg" class="img-fluid" alt="Placeholder image" width="300" height="300">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <h1>Szabályok</h1>
+                <h4>Alapvető szabályok:</h4>
+               
+                <ul>
+                    <li>A vezető nem léphet a pálya területére,nem szólhat bele a játék menetébe míg nem kell! </li>
+                    <li>Az akadályokon nem lehet teljesítés nélkül továbblépni.A feladatokat szabályosan kell végrehajtani
+                    </li>
+                    <li>Ragozni tilos illetve bármely idegen ??test?? a szádban nem lehet
+                        Ékszereket illetve bármely értéktárgy sérülése esetén felelőséget nem vállalunk.
+                    </li> <li><h2>A pálya akadályai</h2>:guggolás 5 db, A bója megkerülése lábújjal a cél felé nézve, A labda pattogtatása a bója körül lábujjal a cél felé nézve,
+                        a pinpong labdat   meg kell találni  a teniszlabdák között,10 Karhajlítás 1kg-os súlyzóval. </li>
+                        <li><h3>Pálya instrukciók</h3>a vezető a páyan kívűl helyezkedik el és onnan adja az utasításokat.Ha az irányított játékos nem tudja elkezdeni a feladatsorozatot cserélhet a vezetővel.
+                            A feladatot 5percen belül végre kell hajtani ha nem sikerült akkor automatikusan cserélni kell a vezetővel.</li>
+                </ul>
+            
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
